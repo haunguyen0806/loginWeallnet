@@ -217,7 +217,24 @@ button:hover {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
+.main-hotair{
+    text-align: center;
+}
+.main-hotair .quote-text{
+    padding: 10px 0;
+    width: 70%;
+}
+.main-hotair .quote-text i{
+    font-size: 20px;
+}
+.main-hotair .quote-text p{
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+}
+.main-hotair .quote-text span{
+    color: #ff6b00;
+}
 .social-icons {
     text-align: center;
     margin-top: 16px;
@@ -417,9 +434,20 @@ p.copy-footer-29 a:hover {
         display: none;
     }
     .content-wthree {
+        background-color: #fff;
         order: 1;
-        border-radius: 20px;
+        border-radius: 30px;
     }
+    .content-wthree input{
+        color: darkgrey;
+    }
+    .content-wthree h2 {
+        color: #192335;
+    }
+    .content-wthree p{
+        color: #192335;
+    }
+    .content-wthree .account{color: #192335;}
 }
 
 @media (max-width:568px) {
