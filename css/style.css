@@ -193,7 +193,7 @@ button:hover {
     flex-basis:50%;
     -webkit-flex-basis:50%;
     box-sizing: border-box;
-    padding: 4em;
+    padding: 3.5em;
     
 }
 
@@ -419,8 +419,6 @@ p.copy-footer-29 a:hover {
     .content-wthree {
         order: 1;
         border-radius: 20px;
-        /* border-top-left-radius: 8px;
-        border-top-right-radius: 8px; */
     }
 }
 
@@ -473,7 +471,16 @@ p.copy-footer-29 a:hover {
 }
 @media (max-width: 768px){
     .content-wthree {
-        padding: 1em;
+        padding: 1.5em;
+    }
+    .content-wthree p{
+        font-size: 10px;
+    }
+    .login-social .button-items{
+        padding: 0 5px;
+    }
+    .content-wthree .account{
+        padding: 15px 0;
     }
 }
 
